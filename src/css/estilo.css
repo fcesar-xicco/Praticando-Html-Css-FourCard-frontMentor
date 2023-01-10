@@ -1,0 +1,79 @@
+.principal{
+    background-color: #FAFAFA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+.informacao{
+    text-align: center;
+    margin-top: 5px;
+    width: 450px;
+}
+.informacao p{
+    margin-top: 15px;
+    color: var(--neutral-blue);
+    font-size: 14px;
+}
+.informacao .sub-titulo{
+    font-size: 32px;
+    font-weight: lighter;
+    color: var(--neutral-dark);
+}
+.informacao h1, .quadro h4{
+    color: var(--neutral-dark);
+}
+.container{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.quadro{
+    background-color: #ffffff;
+    width: 280px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px var(--neutral-blue);
+}
+.quadro p{
+    color: var(--neutral-blue);
+    font-size: 11px; 
+}
+.quadro .icone img{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 50px;
+}
+.abas{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.aba-supervisor{
+    border-top: 4px solid var(--primary-cyan);
+}
+.team{
+    border-top: 4px solid var(--primary-red);
+}
+.karma{
+    border-top: 4px solid var(--primary-orange);
+}
+.aba-calculador{
+    border-top: 4px solid var(--primary-blue);
+}
+.icone a:hover img{
+    width: 80px;
+    margin-bottom: 0px;
+}
+.titulo:hover{
+    font-size: 20px;
+    color: blue;
+}
