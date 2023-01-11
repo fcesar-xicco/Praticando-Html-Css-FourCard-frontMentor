@@ -1,0 +1,28 @@
+@media (max-width: 826px) {
+    .principal{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacao{
+        text-align: center;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .informacao .sub-titulo, h1{
+        font-size: 23px;
+    }
+
+    .quadro{
+        margin: 5px;
+    }
+}
+
